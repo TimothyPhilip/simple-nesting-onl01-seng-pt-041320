@@ -92,7 +92,7 @@ def adding_matz
         }, 
   }
      
-     final_hash = added_hash << programmer_hash
+     final_hash = added_hash programmer_hash
      
    return final_hash
 end
